@@ -119,7 +119,7 @@ i,i,c,c,c,c,c,c,c,c,c,c,c,c,i,i
 0,0,0,0,0,i,c,c,c,c,i,0,0,0,0,0
 NAME Castle Entrance
 EXT 8,15 3 0,7
-EXT 8,0 4 7,15
+EXT 7,1 4 0,11
 PAL 0
 
 ROOM 3
@@ -162,7 +162,7 @@ o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o
 o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o
 o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o
 NAME Throne Room
-EXT 7,15 2 8,0
+EXT 0,11 2 7,1
 PAL 0
 
 TIL 10
@@ -663,9 +663,13 @@ DLG 8
   - {item "message"} == 0 ?
     Oh a message for me?
     hmm lets see...
+    
     "Is your fridge running? Well you better catch it!! XD"
+    
     {shk}IS THIS FROM PAUL AGAIN?? {/shk}
-    This guy has been annoying me for years. God forbid you banish someone's family.
+    
+    This guy has been annoying me for years.
+    God forbid you banish someone's family.
     Well someone has to be punished for this and I don't know where Paul is so ...
     Prison for you! {shk}I BANISH THEE{/shk} you understand why right? :)
   - else ?
